@@ -5,5 +5,4 @@
 // Desc: Basic calculator project
 //----------------------------------------------------------------------
 
-#include "calculator.h"
-
+#include "calculator.h" 
