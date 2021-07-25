@@ -14,11 +14,13 @@ class Calculator
 public:
     // default destructor
     ~Calculator() {};
-    int addition(int num1, int num2) const;
-    int subtraction(int num1, int num2) const;
-    int multiplication(int num1, int num2) const;
-    int division(int num1, int num2) const;
-    
+    int add(int addend1, int addend2);
+    int subtract(int minuend, int subtrahend);
+    int multiply(int factor1, int factor2);
+    int divide(int dividend, int divisor);
+    void main_menu();
+    void get_choice();
+
     // TO DO: ADD  EQUALS SIGN OPERATOR
     // TO DO: ADD POSITIVE AND DEGITIVE OPERATOR
     // TO DO: MAKE FUNCTIONS WORK WITH DECIMAL NUMBERS
